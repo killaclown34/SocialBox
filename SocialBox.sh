@@ -38,7 +38,7 @@ echo -e "	[+]$red Special Greetz To$nc :$green {thelinuxchoice , Ha3MrX, Tunisia
 echo ""
 echo -e "$yellow Select From Menu : $nc"
 echo ""
-echo -e "		$Cyan 1 : Brute Force Facebook Account$nc"
+echo -e "		$Cyan 1 : Brute Force BankofAmerica$nc"
 echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
 echo -e "		$Cyan 3 : Brute Force Instagram Account$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
@@ -50,7 +50,7 @@ echo -e "$green"
 read -p "Enter Facebook ID / Email / Username / Number: " id
 read -p "Enter wordlist path : " wordlist
 echo -e "$nc"
-cd facebook
+cd BankofAmerica
 perl fb-brute.pl $id $wordlist
 echo -e " 		[+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
